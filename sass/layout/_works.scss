@@ -17,14 +17,17 @@
 
 .works__list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .works__item {
-    margin-right: 30px;
+    width: 100%;
+    // margin-right: 30px;
 
-    &:last-child {
-        margin-right: 0;
-    }
+    // &:last-child {
+    //     margin-right: 0;
+    // }
 }
 
 
