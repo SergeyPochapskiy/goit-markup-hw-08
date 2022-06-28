@@ -293,6 +293,13 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bacground-color);
@@ -321,7 +328,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
