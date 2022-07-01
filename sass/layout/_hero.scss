@@ -1,33 +1,102 @@
+.hero .container {
+    // display: flex;
+    width: 100%;
+    padding: 0;
+}
+
 .hero {
     background: #c4c4c4;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url(../images/hero-bg.jpg);
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/hero-bg-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
     margin-right: auto;
     margin-left: auto;
-    max-width: 1600px;
-    min-height: 600px;
+    // max-width: 1600px;
+    // min-height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/hero-bg-mob-2x.jpg);
+    }
+
+
+    @include tablet {
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/hero-bg-tab.jpg);
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: linear-gradient(
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)
+                ),
+                url(../images/hero-bg-tab-2x.jpg);
+        }
+    }
+
+    @include desktop {
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/hero-bg.jpg);
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: linear-gradient(
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)
+                ),
+                url(../images/hero-bg-2x.jpg);
+            }
+    }
+    
+    
 }
 
 .title {
-    display: block;
-    margin: auto;
-    margin-bottom: 30px;
+    // display: block;
+    // margin: auto;
+    // margin-bottom: 30px;
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    align-items: center;
-    color: var(--primary-bacground-color);
-    max-width: 696px;
+    // font-weight: 900;
+    // font-size: 44px;
+    // line-height: 1.36;
+    // text-align: center;
+    // letter-spacing: 0.06em;
+    // text-transform: uppercase;
+    // align-items: center;
+    // color: var(--primary-bacground-color);
+    // max-width: 696px;
+
+    display: block;
+        margin: auto;
+        margin-bottom: 30px;
+        font-weight: 900;
+        font-size: 8vw;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        align-items: center;
+        color: var(--primary-bacground-color);
+        max-width: 696px;
+
+    
 }

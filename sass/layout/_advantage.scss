@@ -1,11 +1,12 @@
 .advantage {
-    padding-top: 94px;
+    // padding-top: 94px;
+    padding-top: 60px;
 }
 
 .advantage__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    // gap: 30px;
     
 }
 
@@ -32,8 +33,8 @@
 
 .advantage__title {
     display: block;
-    // width: 100%;
-    // max-width: 270px;
+    width: 100%;
+    min-width: 270px;
 
     font-weight: 700;
     font-size: 14px;
@@ -41,16 +42,26 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
+
+    @media screen and (max-width: 767px) {
+        text-align: center;
+        }
+
+    
+        
+       
 }
 
 .advantage__text {
     display: block;
     margin-top: 10px;
-    // width: 100%;
-    // max-width: 270px;
+    width: 100%;
+    min-width: 270px;
 
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+
+
 }
