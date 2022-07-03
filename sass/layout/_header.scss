@@ -2,7 +2,7 @@
     background: var(--primary-bacground-color);
 }
 
-.header > .container {
+.header .container {
     display: flex;
     align-items: center;
 }
@@ -165,6 +165,7 @@
 }
 
 .mob-contacts__tel {
+    width: 100%;
     font-weight: 500;
     font-size: 34px;
     line-height: 1.18;
@@ -185,6 +186,7 @@
 
 .mob-soc__list {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 64px;
 }
 

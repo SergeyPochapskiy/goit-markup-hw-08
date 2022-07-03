@@ -428,7 +428,7 @@ body {
   background: var(--primary-bacground-color);
 }
 
-.header > .container {
+.header .container {
   display: flex;
   align-items: center;
 }
@@ -579,6 +579,7 @@ body {
 }
 
 .mob-contacts__tel {
+  width: 100%;
   font-weight: 500;
   font-size: 34px;
   line-height: 1.18;
@@ -596,6 +597,7 @@ body {
 
 .mob-soc__list {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 64px;
 }
 
@@ -755,21 +757,32 @@ body {
   background: #2f303a;
 }
 
+.footer .container {
+  display: block;
+  align-items: center;
+}
+
 .footer__contact {
   margin: auto;
   margin-bottom: 60px;
 }
 
 .logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
   display: block;
-  align-items: center;
 }
 
 .address {
   font-style: normal;
+  margin-bottom: 60px;
 }
 
 .address__list {
+  text-align: center;
   margin-top: 20px;
 }
 
@@ -795,44 +808,41 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.join {
+  margin-bottom: 60px;
+}
+
 .join__title {
   display: block;
   margin-bottom: 20px;
-  width: 144px;
-  height: 16px;
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.subscribe {
-  width: 570px;
-  height: 75px;
-  margin-left: auto;
+  text-align: center;
 }
 
 .subscribe__title {
   display: block;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 17.44px;
+  text-align: center;
 }
 
 .subscribe__wrap {
-  display: flex;
+  display: block;
+  text-align: center;
 }
 
 .subscribe__input {
-  width: 358px;
-  height: 34.88px;
-  margin-right: 12px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
   color: #ffffff;
   background: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -862,12 +872,12 @@ body {
 }
 
 .subscribe__button {
-  display: flex;
+  display: block;
   align-items: center;
   width: 200px;
-  height: 43.6px;
-  padding-top: 8.72px;
-  padding-bottom: 8.72px;
+  height: 50px;
+  padding-top: 9px;
+  padding-bottom: 9px;
   padding-left: 20px;
   font-weight: 700;
   font-size: 16px;
