@@ -6,12 +6,25 @@
 }
 
 .footer .container {
-    display: flex;
-    align-items: baseline;
+    // display: block;
+    // margin: auto;
+
+    // display: flex;
+    // flex-direction: column;
+
+    // display: flex;
+    // align-items: baseline;
 }
 
 .footer__contact {
-    margin-right: 70px;
+    margin: auto;
+    margin-bottom: 60px;
+    // margin-right: 70px;
+}
+
+.logo {
+    display: block;
+    align-items: center;
 }
 
 .address {
@@ -47,6 +60,7 @@
 }
 
 .join__title {
+    
     display: block;
     margin-bottom: 20px;
     width: 144px;
@@ -57,6 +71,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
 
 .subscribe {

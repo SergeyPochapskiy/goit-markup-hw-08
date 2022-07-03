@@ -60,6 +60,91 @@
             >
           </li>
         </ul>
+        <button type="button" class="menu-open__btn">
+          <svg class="menu-open__icon" width="40" height="40">
+            <use href="./images/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="mob-menu is-hidden">
+          <div class="container-mob">
+            <div class="mob-menu__top">
+              <button type="button" class="menu-close__btn">
+                <svg class="menu-open__icon" width="40" height="40">
+                  <use href="./images/symbol-defs.svg#icon-close-black"></use>
+                </svg>
+              </button>
+              <ul class="mob-menu__list list">
+                <li class="mob-menu__item">
+                  <a href="./index.html" class="mob-menu__link link">Студия</a>
+                </li>
+                <li class="mob-menu__item">
+                  <a href="./portfolio.html" class="mob-menu__link link"
+                    >Портфолио</a
+                  >
+                </li>
+                <li class="mob-menu__item">
+                  <a href="" class="mob-menu__link link">Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mob-menu__bottom">
+              <div class="mob-contacts">
+                <ul class="mob-contacts__list list">
+                  <li class="mob-contacts__item">
+                    <a href="tel:+380961111111" class="mob-contacts__tel link"
+                      >+38 096 111 11 11</a
+                    >
+                  </li>
+                  <li class="mob-contacts__item">
+                    <a
+                      href="mailto:info@devstudio.com"
+                      class="mob-contacts__mail link"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                </ul>
+                <ul class="mob-soc__list list">
+                  <li class="mob-soc__item">
+                    <a
+                      href="https://www.google.com/"
+                      class="mob-soc__link link"
+                      target="_blank"
+                      rel="noopener nofollow noreferrer"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li class="mob-soc__item">
+                    <a
+                      href="https://www.google.com/"
+                      class="mob-soc__link link"
+                      target="_blank"
+                      rel="noopener nofollow noreferrer"
+                      >Twitter</a
+                    >
+                  </li>
+                  <li class="mob-soc__item">
+                    <a
+                      href="https://www.google.com/"
+                      class="mob-soc__link link"
+                      target="_blank"
+                      rel="noopener nofollow noreferrer"
+                      >Facebook</a
+                    >
+                  </li>
+                  <li class="mob-soc__item">
+                    <a
+                      href="https://www.google.com/"
+                      class="mob-soc__link link"
+                      target="_blank"
+                      rel="noopener nofollow noreferrer"
+                      >LinkedIn</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -73,7 +158,7 @@
           </button>
         </div>
       </section>
-      <!-- Наши преимущества -->
+      <!----------------- Наши преимущества ------------------>
       <section class="advantage">
         <div class="container">
           <h2 class="advantage__name visually-hidden">Наши преимущества</h2>
@@ -467,7 +552,7 @@
         </div>
       </section>
       <!----------------------- Постоянные клиенты -------------------->
-      <!-- <section class="customers">
+      <section class="customers">
         <div class="container">
           <h2 class="customers__titel">Постоянные клиенты</h2>
           <ul class="customers__list list">
@@ -509,10 +594,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-------------------------Футер----------------------->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="footer__contact">
           <a href="./index.html" class="logo link"
@@ -598,7 +683,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="btn-close" data-modal-close>
@@ -686,6 +771,7 @@
       </div>
     </div>
     -->
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
