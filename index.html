@@ -75,7 +75,9 @@
               </button>
               <ul class="mob-menu__list list">
                 <li class="mob-menu__item">
-                  <a href="./index.html" class="mob-menu__link link">Студия</a>
+                  <a href="./index.html" class="mob-menu__link link accent"
+                    >Студия</a
+                  >
                 </li>
                 <li class="mob-menu__item">
                   <a href="./portfolio.html" class="mob-menu__link link"
@@ -220,37 +222,58 @@
           <h2 class="works__title">Чем мы занимаемся</h2>
           <ul class="works__list list">
             <li class="works__item">
-              <img
-                lang="en"
-                src="./images/algorithm.jpg"
-                alt="Box-1"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/algorithm.jpg    1x,
+                    ./images/algorithm-2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  lang="en"
+                  src="./images/algorithm.jpg"
+                  alt="Box-1"
+                  width="370"
+                  height="294"
+                />
+              </picture>
               <div class="product">
                 <h3 class="product__title">Десктопные приложения</h3>
               </div>
             </li>
             <li class="works__item">
-              <img
-                lang="en"
-                src="./images/mobile.jpg"
-                alt="Box-2"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="./images/mobile.jpg 1x, ./images/mobile-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  lang="en"
+                  src="./images/mobile.jpg"
+                  alt="Box-2"
+                  width="370"
+                  height="294"
+                />
+              </picture>
               <div class="product">
                 <h3 class="product__title">Мобильные приложения</h3>
               </div>
             </li>
             <li class="works__item">
-              <img
-                lang="en"
-                src="./images/desktop.jpg"
-                alt="Box-3"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="./images/mobile.jpg 1x, ./images/mobile-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  lang="en"
+                  src="./images/desktop.jpg"
+                  alt="Box-3"
+                  width="370"
+                  height="294"
+                />
+              </picture>
               <div class="product">
                 <h3 class="product__title">Дизайнерские решения</h3>
               </div>
@@ -664,7 +687,7 @@
           <p class="subscribe__title">Подпишитесь на рассылку</p>
           <form name="subscribe__form">
             <div class="subscribe__wrap">
-              <label for="subscribe__label"></label>
+              <label for="subscribe-label" class="subscribe__label"></label>
               <input
                 type="email"
                 class="subscribe__input"
@@ -770,7 +793,6 @@
         </form>
       </div>
     </div>
-    -->
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
   </body>
