@@ -21,11 +21,8 @@
 }
 
 .footer__contact {
-    // margin: auto;
-    // margin-bottom: 60px;
+    margin-bottom: 60px;
     @media screen and (min-width: 768px) {
-        // margin-right: 165px;
-        // margin-left: 76px;
         margin-bottom: 0;
     }
     @media screen and (min-width: 1200px) {
@@ -51,7 +48,6 @@
 
 .address {
     font-style: normal;
-    margin-bottom: 60px;
     @media screen and (min-width: 768px) {
         margin-bottom: 0;
     }
@@ -87,10 +83,6 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
-
-.join {
-    margin-bottom: 60px;
 }
 
 .join__title {

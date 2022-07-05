@@ -849,6 +849,9 @@ body {
   }
 }
 
+.footer__contact {
+  margin-bottom: 60px;
+}
 @media screen and (min-width: 768px) {
   .footer__contact {
     margin-bottom: 0;
@@ -876,7 +879,6 @@ body {
 
 .address {
   font-style: normal;
-  margin-bottom: 60px;
 }
 @media screen and (min-width: 768px) {
   .address {
@@ -914,10 +916,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.join {
-  margin-bottom: 60px;
 }
 
 .join__title {
