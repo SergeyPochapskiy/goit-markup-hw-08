@@ -6,14 +6,13 @@
 }
 
 .footer .container {
-    display: block;
-    // align-items: center;
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-around;
     }
     @media screen and (min-width: 1200px) {
-        // display: flex;
         align-items: baseline;
     }
 
@@ -22,11 +21,11 @@
 }
 
 .footer__contact {
-    margin: auto;
-    margin-bottom: 60px;
+    // margin: auto;
+    // margin-bottom: 60px;
     @media screen and (min-width: 768px) {
-        margin-right: 165px;
-        margin-left: 76px;
+        // margin-right: 165px;
+        // margin-left: 76px;
         margin-bottom: 0;
     }
     @media screen and (min-width: 1200px) {
@@ -115,7 +114,7 @@
 
 .subscribe {
     @media screen and (min-width: 768px) {
-        margin-left: 166px;
+        // margin-left: 166px;
         margin-top: 60px;
         
     }
